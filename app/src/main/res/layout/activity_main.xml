@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity Life Cycle"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20sp"/>
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="#7E63B3"
+        android:textColor="#E9E9E9"/>
+
+</LinearLayout>
